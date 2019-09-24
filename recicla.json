@@ -1,6 +1,6 @@
 [
         {
-            "carimboDeDatahora":"2019-08-14T01:12:52.874Z",
+            "carimboDeDatahora":"2019-08-14 01:12:52",
             "residencia":"BRRJ2-RES0001",
             "barcode":7891024120804,
             "fabricante":"Palmolive",
@@ -12,7 +12,7 @@
             "data":"2019-08-13T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-08-14T01:31:21.860Z",
+            "carimboDeDatahora":"2019-08-14 01:31:21",
             "residencia":"BRRJ2-RES0002",
             "barcode":7896085055829,
             "fabricante":"Adria",
@@ -24,7 +24,7 @@
             "data":"2019-08-13T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-08-14T01:33:48.106Z",
+            "carimboDeDatahora":"2019-08-14 01:33:48",
             "residencia":"BRRJ2-RES0004",
             "barcode":7500435115827,
             "fabricante":"Unilever",
@@ -32,11 +32,11 @@
             "quantidade":1,
             "peso":100,
             "ecoponto":"BRRJ2-ECO0010",
-            "bairro":"Jardim Campomar",
+            "bairro":"Ancora",
             "data":"2019-08-13T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-09-24T00:33:34.721Z",
+            "carimboDeDatahora":"2019-09-24 00:33:34",
             "residencia":"BRRJ2-RES0001",
             "barcode":7891000142202,
             "fabricante":"Neltle",
@@ -48,7 +48,7 @@
             "data":"2019-08-14T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-09-24T00:35:23.725Z",
+            "carimboDeDatahora":"2019-09-24 00:35:23",
             "residencia":"BRRJ2-RES0002",
             "barcode":7896085055829,
             "fabricante":"Adria",
@@ -60,7 +60,7 @@
             "data":"2019-08-14T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-09-24T00:36:38.375Z",
+            "carimboDeDatahora":"2019-09-27 00:36:38",
             "residencia":"BRRJ2-RES0004",
             "barcode":7891022640007,
             "fabricante":"Bombril",
@@ -72,7 +72,7 @@
             "data":"2019-09-02T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-09-24T00:42:00.549Z",
+            "carimboDeDatahora":"2019-09-27 00:42:00",
             "residencia":"BRRJ2-RES0003",
             "barcode":7500435115827,
             "fabricante":"Unilever",
@@ -84,7 +84,7 @@
             "data":"2019-09-02T03:00:00.000Z"
         },
         {
-            "carimboDeDatahora":"2019-09-24T00:47:28.554Z",
+            "carimboDeDatahora":"2019-09-29 00:47:28",
             "residencia":"BRRJ2-RES0001",
             "barcode":7891021001946,
             "fabricante":"Melita",
