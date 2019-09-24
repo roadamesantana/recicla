@@ -27,17 +27,15 @@ public class Application {
 			ObjectMapper mapper = new ObjectMapper();
 			TypeReference<Collection<ReciclaDTO>> typeReference = new TypeReference<Collection<ReciclaDTO>>() {};
 
-			File file = new File("/home/ronald/workspace/spring-recicla/recila.reader/target/recicla.json");
-//			InputStream inputStream = TypeReference.class.getResourceAsStream("/recicla.json");
+			File file = new File("/home/ronald/workspace/spring-recicla/recila.reader/recicla.json");
 
 			try {
-				List<ReciclaDTO> users = mapper.readValue(file, typeReference);
-				users.stream().forEach(x -> System.out.println(x.toString()));
+				List<ReciclaDTO> list = mapper.readValue(file, typeReference);
+				list.stream().forEach(x -> System.out.println(x.toString()));
 				System.out.println("FIM");
 			} catch (IOException e) {
 				System.out.println("Erro: " + e);
 			}
 		};
 	}
-
 }
