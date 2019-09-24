@@ -7,11 +7,13 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -28,6 +30,11 @@ public class Application {
 	CommandLineRunner runner() {
 		return args -> {
 			try {
+				RestTemplate restTemplate = new RestTemplate();
+				Map<String, String> map = (Map<String, String>)restTemplate.getForObject("https://gturnquist-quoters.cfapps.io/api/random", Map.class);
+				
+				System.out.println("Status API: " + map.get("type"));
+				
 				ObjectMapper mapper = new ObjectMapper();
 				TypeReference<Collection<ReciclaDTO>> typeReference = new TypeReference<Collection<ReciclaDTO>>() {};
 				
