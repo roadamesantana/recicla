@@ -1,4 +1,5 @@
-[
+{
+"recicla":[
         {
             "carimboDeDatahora":"2019-08-14 01:12:52",
             "residencia":"BRRJ2-RES0001",
@@ -96,3 +97,4 @@
             "data":"2019-09-04T03:00:00.000Z"
         }
 ]
+}
